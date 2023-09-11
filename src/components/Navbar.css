@@ -1,0 +1,24 @@
+.nav-div {
+    display: flex;
+    background-color: rgb(8, 9, 9);
+    color: white;
+    height: 80px;
+    position: sticky;
+}
+.img-div {
+    flex: 1;
+}
+h1 {
+    color: white;
+}
+.search-div {
+    display: flex;
+    margin-right: 500px;
+    margin-top: 5px;
+    align-items: center;
+}
+.logo-img {
+    height: 40px;
+    margin-top: 17px;
+    margin-left: 35px;
+}

@@ -1,0 +1,18 @@
+.category-btn {
+    border-radius: 20px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    display: flex;
+}
+.category-btn:hover {
+    background-color: #FC15;
+    color: #fff
+}
+.sp-text {
+    color: rgb(247, 242, 242);
+    align-items: center;
+}
+.sp-icon:hover {
+    color: #fff;
+}

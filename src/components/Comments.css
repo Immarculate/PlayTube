@@ -1,0 +1,7 @@
+.stack {
+    display: flex;
+    color: #fff;
+}
+.box_ {
+    flex-direction: row;
+}
