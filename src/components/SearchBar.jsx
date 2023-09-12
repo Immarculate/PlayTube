@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { Paper, IconButton } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+import './SearchBar.css';
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -26,7 +27,7 @@ const SearchBar = () => {
         border: '1px solid #e3e3e3',
         pl: 2,
         boxShadow: 'none',
-        mr: { sm: 5 },
+        // mr: { sm: 5 },
       }}
     >
       <input

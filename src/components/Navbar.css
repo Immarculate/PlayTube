@@ -8,7 +8,7 @@
 .img-div {
     flex: 1;
 }
-h1 {
+.h1-name {
     color: white;
 }
 .search-div {
@@ -21,4 +21,10 @@ h1 {
     height: 40px;
     margin-top: 17px;
     margin-left: 35px;
+}
+
+@media  (min-width: 375px) {
+    .h1-name {
+        display: none;
+    }
 }

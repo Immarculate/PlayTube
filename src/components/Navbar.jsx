@@ -11,7 +11,7 @@ const Navbar = () => (
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={myapplogo} alt="logo" height={65} />
     </Link>
-    <h1 color="white">PlayTube</h1>
+    <h1 className='h1-name' color="white">PlayTube</h1>
     <SearchBar />
   </Stack>
 );
