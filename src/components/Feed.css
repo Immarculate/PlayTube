@@ -2,4 +2,8 @@
     .copyright {
         display: none;
     }
+    .body_ {
+        background-color: #010101;
+        width: 320px;
+    }
 }

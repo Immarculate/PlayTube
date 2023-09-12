@@ -25,3 +25,11 @@
         width: 320px;
     }
 }
+@media  (max-width: 425px) {
+    .h1-name {
+        display: none;
+    }
+    .st_ {
+        width: 320px;
+    }
+}

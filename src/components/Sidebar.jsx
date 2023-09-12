@@ -10,6 +10,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
     sx={{ 
       overflowY: "auto",
       height: { sx: "auto", md: "95%" },
+      width: {md: '320px'},
       flexDirection: { md: "column" },
     }}
   >
