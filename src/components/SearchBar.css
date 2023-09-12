@@ -1,9 +1,12 @@
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .paper {
         display: flex;
     }
     Paper {
-        width: 30px;
-        display: flex;
+        width: 50px;
+        border-Radius: 10px;
+        border: 1px solid #e3e3e3;
+        /* pl: 2; */
+        box-Shadow: none;
     }
 }

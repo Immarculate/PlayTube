@@ -1,10 +1,4 @@
-.nav-div {
-    display: flex;
-    background-color: rgb(8, 9, 9);
-    color: white;
-    height: 80px;
-    position: sticky;
-}
+
 .img-div {
     flex: 1;
 }
@@ -23,8 +17,11 @@
     margin-left: 35px;
 }
 
-@media  (min-width: 375px) {
+@media  (min-width: 320px) {
     .h1-name {
         display: none;
+    }
+    .st_ {
+        width: 320px;
     }
 }

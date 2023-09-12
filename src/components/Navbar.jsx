@@ -7,7 +7,7 @@ import myapplogo from '../images/myapplogo.png';
 import { SearchBar } from "./";
 
 const Navbar = () => (
-  <Stack direction="row" alignItems="center" p={2} sx={{ position:  "sticky", background: '#000', top: 0, justifyContent: "space-between" }}>
+  <Stack className='st_' direction="row" alignItems="center" p={2} sx={{ position:  "sticky", background: '#000', top: 0, justifyContent: "space-between" }}>
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={myapplogo} alt="logo" height={65} />
     </Link>
